@@ -69,7 +69,7 @@ To do so, we can create a new file named __subgraphconfig.json__ and add the fol
 
 ```json
 {
-  "output": "generated/sample.",
+  "output": "generated/",
   "chain": "mainnet",
   "datasources": [
     { "address": "0xBd3531dA5CF5857e7CfAA92426877b022e612cf8", "startBlock":  12878203, "module": [ "erc721", "ownable" ] },
@@ -100,10 +100,8 @@ npx graph-compiler \
 
 After running this command, you should have the subgraph compiled in a new folder named __generated__. In this folder, you should see two files:
 
-- __sample.schema.graphql__ - The GraphQL schema / data model
-- __sample.subgraph.yaml__ - The main subgraph configuration
-
-Update the naming of __sample.subgraph.yaml__ to __subgraph.yaml__.
+- __schema.graphql__ - The GraphQL schema / data model
+- __subgraph.yaml__ - The main subgraph configuration
 
 Now we are ready to deploy.
 

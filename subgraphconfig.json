@@ -1,5 +1,5 @@
 {
-  "output": "generated/sample.",
+  "output": "generated/",
   "chain": "mainnet",
   "datasources": [
     { "address": "0xBd3531dA5CF5857e7CfAA92426877b022e612cf8", "startBlock":  12878203, "module": [ "erc721", "ownable" ] },
