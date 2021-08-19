@@ -1,6 +1,6 @@
 ## Building NFT APIs with OpenZeppelin and The Graph
 
-OpenZeppelin recently released [OpenZeppelin Subgraphs][https://docs.openzeppelin.com/subgraphs/0.1.x/], a set of modules and CLI tools that make it easy to index OpenZeppelin contracts activity and make it available via an open API using The Graph Protocol.
+OpenZeppelin recently released [OpenZeppelin Subgraphs](https://docs.openzeppelin.com/subgraphs/0.1.x/), a set of modules and CLI tools that make it easy to index OpenZeppelin contracts activity and make it available via an open API using The Graph Protocol.
 
 These tools abstract away a lot of the code that you'd typically need to write to create a Subgraph when using various modules that OpenZeppelin supports.
 
