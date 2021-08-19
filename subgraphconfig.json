@@ -1,0 +1,8 @@
+{
+  "output": "generated/sample.",
+  "chain": "mainnet",
+  "datasources": [
+    { "address": "0xBd3531dA5CF5857e7CfAA92426877b022e612cf8", "startBlock":  12878203, "module": [ "erc721", "ownable" ] },
+    { "address": "0x1a92f7381b9f03921564a437210bb9396471050c", "startBlock":  12743024, "module": [ "erc721", "ownable" ] }
+  ]
+}
